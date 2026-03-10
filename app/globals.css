@@ -12,10 +12,6 @@
   --foreground: #171717;
 }
 
-@font-face {
-    font-family: "Modern Negra";
-    src: url("./fonts/Modern Negra Demo.ttf") format("truetype");
-}
 
 @theme  {
     --color-yellow: #e7d393;
@@ -35,3 +31,13 @@ body {
     overflow-x: hidden;
 }
 
+.noisy {
+    @apply absolute inset-0 size-full bg-[url("/images/noise.png")];
+}
+
+.text-gradient {
+    background: linear-gradient(to bottom, #ffffff, #898989);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
