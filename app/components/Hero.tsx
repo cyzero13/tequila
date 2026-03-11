@@ -68,7 +68,7 @@ const Hero = () => {
 
     return (
         <>
-            <section className='noisy relative z-10 min-h-dvh w-full border border-transparent'>
+            <section id="home" className='noisy relative z-10 min-h-dvh w-full border border-transparent'>
                 <h1 className='title md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra' >MOJITO</h1>
                 <img src="/images/hero-left-leaf.png" alt="left-leaf" className='absolute left-0 md:top-20 xl:top-36 2xl:top-52 md:bottom-auto -bottom-20 md:w-fit w-1/3'/>
                 <img src="/images/hero-right-leaf.png" alt="right-leaf" className='absolute right-0 md:bottom-0 xl:top-0 2xl:top-12 top-1/2 md:w-fit w-24'/>
