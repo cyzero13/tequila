@@ -78,8 +78,8 @@ const Cocktails = () => {
 
   return (
 	<section id="cocktails" className="noisy relative min-h-dvh w-full overflow-hidden">
-    <img src="/images/cocktail-left-leaf.png" alt="l-leaf" id="c-left-leaf" className='absolute left-0 md:bottom-0 md:top-auto bottom-0 md:w-fit w-1/3'/>
-    <img src="/images/cocktail-right-leaf.png" alt="r-leaf" id="c-right-leaf" className='absolute right-0 md:bottom-0 md:top-auto bottom-0 md:w-fit w-1/3'/>
+    <img src="./images/cocktail-left-leaf.png" alt="l-leaf" id="c-left-leaf" className='absolute left-0 md:bottom-0 md:top-auto bottom-0 md:w-fit w-1/3'/>
+    <img src="./images/cocktail-right-leaf.png" alt="r-leaf" id="c-right-leaf" className='absolute right-0 md:bottom-0 md:top-auto bottom-0 md:w-fit w-1/3'/>
     
     <div className="container mx-auto relative z-10 flex md:flex-row flex-col justify-between items-start gap-20 pt-40 2xl:px-0 px-5">
       <div className="space-y-8 w-full md:w-fit">

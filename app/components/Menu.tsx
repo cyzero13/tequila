@@ -10,7 +10,7 @@ const Menu = () => {
     {
         id: 1,
         name: "Classic Mojito",
-        image: "/images/drink1.png",
+        image: "./images/drink1.png",
         title: "Simple Ingredients, Bold Flavor",
         description:
         "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
@@ -18,7 +18,7 @@ const Menu = () => {
     {
         id: 2,
         name: "Raspberry Mojito",
-        image: "/images/drink2.png",
+        image: "./images/drink2.png",
         title: "A Zesty Classic That Never Fails",
         description:
         "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
@@ -26,7 +26,7 @@ const Menu = () => {
     {
         id: 3,
         name: "Violet Breeze",
-        image: "/images/drink3.png",
+        image: "./images/drink3.png",
         title: "Simple Ingredients, Bold Flavor",
         description:
         "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
@@ -34,7 +34,7 @@ const Menu = () => {
     {
         id: 4,
         name: "Curacao Mojito",
-        image: "/images/drink4.png",
+        image: "./images/drink4.png",
         title: "Crafted With Care, Poured With Love",
         description:
         "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
@@ -72,8 +72,8 @@ const Menu = () => {
  
     return (
         <section id="menu" aria-labelledby="menu-heading" className='relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20 radial-gradient'>
-            <img src="/images/slider-left-leaf.png" alt="left-leaf" id="m-left-leaf" className='object-contain absolute bottom-0 left-0 md:w-fit w-1/3'/>
-            <img src="/images/slider-right-leaf.png" alt="right-leaf" id="m-right-leaf" className='object-contain absolute top-0 right-0 md:w-fit w-1/4'/>
+            <img src="./images/slider-left-leaf.png" alt="left-leaf" id="m-left-leaf" className='object-contain absolute bottom-0 left-0 md:w-fit w-1/3'/>
+            <img src="./images/slider-right-leaf.png" alt="right-leaf" id="m-right-leaf" className='object-contain absolute top-0 right-0 md:w-fit w-1/4'/>
             
             <h2 id="menu-heading" className="sr-only">
             Cocktail Menu
@@ -103,12 +103,12 @@ const Menu = () => {
             <div className="flex items-center justify-between w-full absolute">
                 <button className="text-left text-white hover:text-yellow cursor-pointer transition-colors max-w-36" onClick={() => goToSlide(currentIndex - 1)}>
                     <span className='text-3xl font-modern-negra leading-none hidden md:block'>{prevCocktail.name}</span>
-                    <img src="/images/right-arrow.png" alt="right-arrow" aria-hidden="true" />
+                    <img src="./images/right-arrow.png" alt="right-arrow" aria-hidden="true" />
                 </button>
                 
                 <button className="text-left text-white hover:text-yellow cursor-pointer transition-colors max-w-36" onClick={() => goToSlide(currentIndex + 1)}>
                     <span className='text-3xl font-modern-negra leading-none hidden md:block'>{nextCocktail.name}</span>
-                    <img src="/images/left-arrow.png" alt="left-arrow" aria-hidden="true" />
+                    <img src="./images/left-arrow.png" alt="left-arrow" aria-hidden="true" />
                 </button>
             </div>
             

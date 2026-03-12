@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "Modern Negra";
-    src: url("/fonts/Modern Negra Demo.ttf") format("truetype");
+    src: url("./fonts/Modern Negra Demo.ttf") format("truetype");
 }
 
 :root {
@@ -32,7 +32,7 @@ body {
 }
 
 .noisy {
-    @apply inset-0 size-full bg-[url("/images/noise.png")];
+    @apply inset-0 size-full bg-[url("./images/noise.png")];
 }
 
 .text-gradient {
@@ -51,7 +51,7 @@ body {
 }
 
 .masked-img {
-    mask-image: url("/images/mask-img.png");
+    mask-image: url("./images/mask-img.png");
     mask-repeat: no-repeat;
     mask-position: center;
     mask-size: 50%;

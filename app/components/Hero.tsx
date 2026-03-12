@@ -70,8 +70,8 @@ const Hero = () => {
         <>
             <section id="home" className='noisy relative z-10 min-h-dvh w-full border border-transparent'>
                 <h1 className='title md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra' >MOJITO</h1>
-                <img src="/images/hero-left-leaf.png" alt="left-leaf" className='absolute left-0 md:top-20 xl:top-36 2xl:top-52 md:bottom-auto -bottom-20 md:w-fit w-1/3'/>
-                <img src="/images/hero-right-leaf.png" alt="right-leaf" className='absolute right-0 md:bottom-0 xl:top-0 2xl:top-12 top-1/2 md:w-fit w-24'/>
+                <img src="./images/hero-left-leaf.png" alt="left-leaf" className='absolute left-0 md:top-20 xl:top-36 2xl:top-52 md:bottom-auto -bottom-20 md:w-fit w-1/3'/>
+                <img src="./images/hero-right-leaf.png" alt="right-leaf" className='absolute right-0 md:bottom-0 xl:top-0 2xl:top-12 top-1/2 md:w-fit w-24'/>
 
                 <div className='container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-20 top-auto md:top-[30vh] flex justify-between items-end px-5'>
                     <div className='flex lg:flex-row flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto'>
@@ -99,7 +99,7 @@ const Hero = () => {
             <div className='absolute inset-0 video'>
                 <video 
                     ref={videoRef}
-                    src="/videos/output.mp4"
+                    src="./videos/output.mp4"
                     className='w-full md:h-[80%] h-1/2 absolute bottom-0 left-0 md:object-contain object-bottom object-cover'
                     muted
                     playsInline
