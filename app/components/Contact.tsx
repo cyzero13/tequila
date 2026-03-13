@@ -30,8 +30,8 @@ const Contact = () => {
  
  return (
 	<footer id="contact" className='relative md:mt-20 mt-0 px-4 text-center w-full overflow-hidden radial-gradient'>
-        <img src="/images/footer-right-leaf.png" alt="leaf-right" id="f-right-leaf"className='absolute top-0 right-0 pointer-events-none hidden lg:block'  />
-        <img src="/images/footer-left-leaf.png" alt="leaf-left" id="f-left-leaf" className='absolute bottom-0 left-0 pointer-events-none lg:w-fit w-1/3' />
+        <img src="./images/footer-right-leaf.png" alt="leaf-right" id="f-right-leaf"className='absolute top-0 right-0 pointer-events-none hidden lg:block'  />
+        <img src="./images/footer-left-leaf.png" alt="leaf-left" id="f-left-leaf" className='absolute bottom-0 left-0 pointer-events-none lg:w-fit w-1/3' />
         
         <div className="container mx-auto lg:py-14 2xl:py-32 py-16 flex justify-center items-center flex-col gap-10 min-h-dvh md:max-w-[70vw]">
             <h2 className='lg:text-6xl 2xl:text-8xl text-5xl font-modern-negra md:translate-y-0 translate-y-5'>Have a project in mind or want to work together</h2>
